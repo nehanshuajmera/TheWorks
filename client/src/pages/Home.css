@@ -1,0 +1,21 @@
+.home{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search-sort-container{
+    height: 40vh;
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.search-sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 3.4rem;
+    height: 38vh;
+    border-bottom: 1.5px solid #000;
+}
