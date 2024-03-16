@@ -120,19 +120,20 @@ nav a{
     }
 
     .menu{
+        position: absolute;
+        right: 1rem;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        height: 6vh;
-        padding: 0 2rem;
+        height: 2rem;
+        width: 2.25rem;
     }
 
     .menu span{
-        font-size: 2.5rem;
-        font-weight: 500;
+        height: 0.2rem;
         width: 100%;
-        height: 2px;
+        background-color: #fff;
+        border-radius: 0;
     }
     
     .navigation-items{

@@ -12,7 +12,11 @@ export const Header = () => {
               alt="Loading Error"
             />
           </div>
-          
+          <div className="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
           <div className="navigation-items">
             <NavLink to="">
               <div className="nav-item">Resources</div>
