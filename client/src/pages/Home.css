@@ -20,14 +20,57 @@
     border-bottom: 1.5px solid #000;
 }
 
+/* Responsive CSS */
 @media (min-width: 320px) and (max-width: 480px){
     .search-sort-container{
-        width: 100%;
+        height: 20vh;
+        width: 80%;
+        padding: 0.5rem;
+        margin: 0 auto;
     }
+    
     .search-sort{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 3.4rem;
+        height: 18vh;
+        border-bottom: 1.5px solid #000;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 600px){
+    .search-sort-container{
+        height: 20vh;
+        width: 80%;
+        padding: 0.5rem;
+        margin: 0 auto;
+    }
+    
+    .search-sort{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 3.4rem;
+        height: 18vh;
+        border-bottom: 1.5px solid #000;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+    .search-sort-container{
+        height: 20vh;
+        width: 70%;
+        padding: 0.5rem;
+        margin: 0 auto;
+    }
+    
+    .search-sort{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 3.4rem;
+        height: 18vh;
+        border-bottom: 1.5px solid #000;
     }
 }
