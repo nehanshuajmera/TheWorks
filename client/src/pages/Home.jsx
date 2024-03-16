@@ -34,12 +34,12 @@ export const Home = () => {
   const handleSort = (sortOption) => {
     const sortedAccordions = [...accordions];
     if (sortOption === "leastViewed") {
-      sortedAccordions.sort((a, b) => a.index - b.index);
+      sortedAccordions.sort((a, b) => parseInt(a.index) - parseInt(b.index));
     } else {
-      sortedAccordions.sort((a, b) => b.index - a.index);
+      sortedAccordions.sort((a, b) => parseInt(b.index) - parseInt(a.index));
     }
     setAccordions(sortedAccordions);
-  }
+  };
 
   return (
     <div className="home">
